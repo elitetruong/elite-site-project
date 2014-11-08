@@ -1,0 +1,120 @@
+html, body {
+  background-color: white;
+  margin: 0;
+  padding: 0px;
+  color: #DFDFDF;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+a {
+  color: #DFED5C;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#shader,
+#shader-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#shader:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: .4;
+  background-image: linear-gradient(to top left, #052f48, #cf391c);
+
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+
+
+
+#full-wrap:hover #shader:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: .5;
+}
+
+.profile-wrap {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  left: 50px;
+  bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.profile-head {
+  padding: 100px 0;
+}
+
+.profile-image {
+  position:relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-image: url('../images/headshot.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.profile-image:after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  width: 240px;
+  height: 240px;
+  border-radius: 240px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.profile-name {
+  margin: 40px auto 20px auto;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.profile-details {
+  margin-top: 40px;
+}
+
+.profile-details div {
+  padding: 20px 10px;
+  margin: 0 auto 5px auto;
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.profile-details span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.profile-details .name {}
+.profile-details .twitter {}
+.profile-details .email {}
+.profile-details .interests {}

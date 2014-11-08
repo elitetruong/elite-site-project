@@ -1262,7 +1262,7 @@ FSS.SVGRenderer.prototype.formatStyle = function(color) {
     zOffset: 100,
     ambient: '#1abc65',
     diffuse: '#b4c910',
-    speed: 0.0002,
+    speed: 0.0003,
     gravity: 500,
     dampening: 0.95,
     minLimit: 10,

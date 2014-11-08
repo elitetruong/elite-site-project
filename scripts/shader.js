@@ -1248,8 +1248,8 @@ FSS.SVGRenderer.prototype.formatStyle = function(color) {
     xRange: 0.8,
     yRange: 0.1,
     zRange: 1.0,
-    ambient: '#555555',
-    diffuse: '#696969',
+    ambient: '#9900CC',
+    diffuse: '#6600CC',
     speed: 0.0001
   };
 
@@ -1507,4 +1507,4 @@ FSS.SVGRenderer.prototype.formatStyle = function(color) {
   // Let there be light!
   initialise();
 
-})();        
+})();

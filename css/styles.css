@@ -61,8 +61,8 @@ a:hover {
   left: 50px;
   bottom: 50px;
   background-color: rgba(0, 0, 0, 0);
-  overflow-y: scroll;
   overflow-x: hidden;
+  overflow-y: scroll;
 
 }
 

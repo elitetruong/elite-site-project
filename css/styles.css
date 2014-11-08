@@ -61,6 +61,8 @@ a:hover {
   left: 50px;
   bottom: 50px;
   background-color: rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .profile-head {

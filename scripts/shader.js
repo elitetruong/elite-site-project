@@ -1249,7 +1249,7 @@ FSS.SVGRenderer.prototype.formatStyle = function(color) {
     yRange: 0.1,
     zRange: 1.0,
     ambient: '#9900CC',
-    diffuse: '#6600CC',
+    diffuse: '#FFCCFF',
     speed: 0.0001
   };
 

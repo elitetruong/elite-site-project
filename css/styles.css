@@ -63,6 +63,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0);
   overflow-x: hidden;
   overflow-y: scroll;
+  padding-top:50px;
 
 }
 
